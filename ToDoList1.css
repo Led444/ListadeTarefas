@@ -1,0 +1,93 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;}
+
+body{
+    background: #f1f5f9;
+    color: #1e293b;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;}
+
+.areaLista{
+    display: flex;
+    min-height:60vh;
+
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;}
+
+
+main{
+    width: 400px;
+    max-width: 90%;
+    padding: 16px;
+    border-radius: 8px;
+    background-color: white;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.05);}
+
+#todoList li {
+    display: flex;
+    align-items: center;
+
+    padding: 8px;
+    margin-bottom: 8px;}
+
+#todoList li span {
+    flex: 1;}
+
+.completeButton, .deleteButton, #botao{
+    border: none;
+    padding: 8px;
+    border-radius: 8px;
+    transition: background-color 0.2s ease;
+    cursor: pointer;}
+
+
+
+#botao:active{
+    transform: scale(0.90);}
+
+.completeButton {
+    background-color: lightskyblue;
+    color: darkblue;
+    margin-right:16px;}
+
+.deleteButton{
+    margin-left:auto;
+    background-color: lightcoral;
+    color:darkred;}
+
+#botao{
+    background-color: lightgreen;
+    color:darkgreen;}
+
+#botao:hover {
+    background-color: #bbf7d0;}
+
+.completeButton:hover {
+    background-color: lightblue;}
+
+.deleteButton:hover {
+    background-color: #fecaca;}
+
+#input {
+    border: 1px solid #cbd5e1;
+    border-radius: 8px;
+    padding: 8px;
+    transition: 0.2s ease;
+}
+#input:focus {
+    outline: none;
+    border-color: #86efac;
+    box-shadow: 0 0 0 3px #dcfce7;
+}
+form:focus-within {
+    background-color: #f8fafc;
+}
+
+#taskArea {
+    min-height: 150px;}
+
+#emptyMessage {
+    color: darkgray;}
+

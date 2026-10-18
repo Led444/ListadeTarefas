@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Lista de tarefas</title>
+    <link rel="stylesheet" href="ToDoList1.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+<div class="areaLista">
+    <main >
+        <header>
+            <h1>Lista de tarefas</h1>
+        </header>
+        <section aria-label="Tarefas" id="taskArea">
+            <p id="emptyMessage">Nenhuma tarefa encontrada</p>
+            <ul id="todoList">
+
+            </ul>
+        </section>
+        <form id="taskForm">
+        <label for="input">Nova tarefa</label>
+        <input type="text" placeholder="Digite uma tarefa..." id="input" name="task" required>
+        <button type="submit" id="botao">Adicionar</button>
+    </form>
+    </main>
+</div>
+    <script src="ToDoList1.js"></script>
+</body>
+</html>
