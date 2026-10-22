@@ -5,7 +5,7 @@ Um projeto simples onde você pode adicionar, deletar e concluir tarefas.
 ## Como acessar:
 
 - Copie o link (URL) do arquivo HTML.
-- Acesse o HTML Preview.
+- Acesse o [HTML Preview](https://htmlpreview.github.io/).
 - Cole o link no campo indicado e clique em Preview.
 
 ## Como usar:
