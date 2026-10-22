@@ -57,7 +57,7 @@ function renderTask() {
         const deleteButton = document.createElement('button');
         deleteButton.type = 'button';
         deleteButton.className = 'deleteButton';
-        deleteButton.textContent = 'Delete';
+        deleteButton.textContent = 'Excluir';
 
         deleteButton.addEventListener('click', function() {
             tasks.splice(index, 1);
